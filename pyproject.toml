@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "round-countdown"
+version = "0.1.0"
+description = "Round Countdown"
+authors = ["Michael Rice <michael@riceclan.org>"]
+license = "Copyright @2023 michael@riceclan.org"
+readme = "README.md"
+packages = [{include = "round_countdown"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pythontk = "^0.7.3"
+tkmacosx = "^1.0.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+py2app = "^0.28.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
