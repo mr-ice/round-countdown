@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "round-countdown"
+name = "Round Countdown"
 version = "0.1.0"
 description = "Round Countdown"
 authors = ["Michael Rice <michael@riceclan.org>"]
 license = "Copyright @2023 michael@riceclan.org"
 readme = "README.md"
-packages = [{include = "round_countdown"}]
+packages = [{include = "Round Countdown"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
