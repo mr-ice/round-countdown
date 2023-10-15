@@ -15,7 +15,7 @@ the counter will delete the individual counter.
 make ve app
 ```
 
-The MacOS app will be in dist/Round Counter.app
+The MacOS app will be in dist/Round Countdown.app
 
 `make ve` will set up a python virtual environment in `venv`.
 To run this without creating a MacOS app you can just
