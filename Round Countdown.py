@@ -16,10 +16,10 @@ import tkmacosx as tkx
 LARGE_FONT = ("Verdana", 18)
 
 
-class RoundCounterApp(tk.Tk):
+class RoundCountdownApp(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
-        self.title("Round Counter")
+        self.title("Round Countdown")
         self.config(padx=20, pady=20)
         container = tk.Frame(self)
         container.config(width=300, height=400)
@@ -161,5 +161,5 @@ class AddPage(tk.Frame):
 
 
 if __name__ == "__main__":
-    app = RoundCounterApp()
+    app = RoundCountdownApp()
     app.mainloop()
